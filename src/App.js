@@ -1,9 +1,8 @@
-import { users } from "./fakeDB";
+import "./App.css";
 
-function App() {
-  console.log(users);
+const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>Learn React</h1>
     </div>
   );
