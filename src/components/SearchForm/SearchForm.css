@@ -1,0 +1,43 @@
+.search__container {
+    margin: 95px auto;
+    width: 83.8%;
+}
+
+.search__form {
+    display: flex;
+}
+
+.search__form input[type="text"] {
+    flex: 1;
+    margin-right: 14px;
+    height: 44px;
+    background: #DDE1ED;
+    border: none;
+    padding: 0 32px;
+
+    outline: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #474D82;
+}
+
+.search__form button {
+    background: #40485B;
+    border: none;
+    padding: 12px 30px;
+    margin-left: 14px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

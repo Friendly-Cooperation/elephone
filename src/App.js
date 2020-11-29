@@ -1,10 +1,15 @@
-import { users } from "./fakeDB";
+import "./App.css";
 
-function App() {
-  console.log(users);
+import Header from "./components/Header";
+import SearchForm from "./components/SearchForm";
+
+const App = () => {
   return (
-    <div>
-      <h1>Learn React</h1>
+    <div className="app">
+      <Header/>
+      <div className="content">
+        <SearchForm />
+      </div>
     </div>
   );
 }
