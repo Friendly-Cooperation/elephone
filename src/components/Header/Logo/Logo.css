@@ -1,0 +1,11 @@
+.header__logo {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.12em;
+    color: #DDE1ED;
+    margin-left: 38px;
+}
